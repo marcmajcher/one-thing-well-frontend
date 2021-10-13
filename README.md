@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# One Thing Well
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+One Thing Well is a todo application that helps you focus on the one thing that you need to (or want to) work on right now. It's easy to look at a long list of items to do and get stuck trying to decide which one is most important or urgent and wind up either fiddling with the list, or get overwhelmed and wind up doing nothing at all. Here, you'll add all of your todos (no matter how big or small) to one "bucket", and OTW will choose one for you at random to focus on. As you use the app, it will try to learn what's more important or urgent for you, and help you get those done, while still throwing you some surprises every now and then.
 
-## Available Scripts
+This is the repo for the front end, and you can visit the hosted app [here](http://some.hosting.service/myapp). The back end repo is [here](http://github.com/itsame/myapp-backend), which documents the API and database schema.
 
-In the project directory, you can run:
+## User Stories
 
-### `yarn start`
+* As a guest, I want to be able to create an account, so I can log in and use the app.
+* As a user, I want to be able to log into the app with a username and password, so I can use the app.
+* As a user, I would like to be able to set my name and photo in my profile, to personalize the app.
+* As a user, I want to be able to enter my most important long-term goal as a default action item, so I always have something to do after I run out of other tasks.
+* As a user, I want to be able to select a random task from the well, so I can focus on one thing at a time.
+* As a user, I want to be able to add a new task to the well, to create a list of tasks to draw from.
+* As a user, I want to be able to mark a task as complete, so I can move on to the next task.
+* As a user, I would like to be able to see all of my completed tasks, so I can see what I've accomplished.
+* As a user, I want to see my current task in a prominent position, so I can easily see what I'm working on.
+* As a user, I want to be able to delay my current task by drawing another task, so the app will learn which tasks are less urgent.
+* As a user, I want to be able to "sink" or reject my current task, so the app will learn which tasks are less important.
+* As a user, I want a new task to automatically appear when I complete, delay, or sink a task, so I always have something to work on.
+* As a user, I would like my login to persist across sessions, so I don't have to log in every time.
+* As a user, I would like to log out of the app, so another user can use it.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Wireframes / Mockup
 
-### `yarn test`
+![One Thing Well Login](readme/OTW01_login.png)
+![One Thing Well Signup](readme/OTW02_signup.png)
+![One Thing Well Most Important](readme/OTW03_p1.png)
+![One Thing Well First Task](readme/OTW04_first.png)
+![One Thing Well Start](readme/OTW05_well.png)
+![One Thing Well Main](readme/OTW06_main.png)
+![One Thing Well Completed Tasks](readme/OTW07_completed.png)
+![One Thing Well Add Task](readme/OTW08_add.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Contact info 
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I'm [Marc Majcher](https://github.com/marcmajcher), and I'm currently a lead software engineering instructor at [Flatiron School](https://flatironschool.com/). Drop me a line if you'd like to chat about a project!
