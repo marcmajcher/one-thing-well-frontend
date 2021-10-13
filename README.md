@@ -24,7 +24,7 @@ This is the repo for the front end, and you can visit the hosted app [here](http
 
 ## Wireframes / Mockup
 
-![One Thing Well Login](readme/OTW01_login.png)
+![One Thing Well Login](readme/OTW01_login.png )
 ![One Thing Well Signup](readme/OTW02_signup.png)
 ![One Thing Well Most Important](readme/OTW03_p1.png)
 ![One Thing Well First Task](readme/OTW04_first.png)
